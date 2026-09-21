@@ -57,7 +57,7 @@ Vehicle Speed → LSTM Predictor → MPC / PID Controller → EV Torque → EV D
 - Input: 100-step velocity history → Output: 20-step velocity forecast
 - Training: 10,000 synthetic sequences across 4 driving scenarios (highway, urban, smooth, variable)
 - 80/20 train/val split — scalers fit on training data only (no leakage)
-- Validation RMSE: **0.414 m/s** | MAPE: **1.71%** after 50 epochs
+- Validation RMSE: **0.423 m/s** | MAPE: **1.76%** after 50 epochs
 
 
 
@@ -108,10 +108,10 @@ Vehicle Speed → LSTM Predictor → MPC / PID Controller → EV Torque → EV D
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Eco-PCC.git
+git clone https://github.com/Riyann69/Eco-PCC.git
 cd Eco-PCC
 pip install -r requirements.txt
-jupyter notebook Eco-Cruise_Control_for_EVs_v2.ipynb
+jupyter notebook Eco-Cruise_Control_for_EVs.ipynb
 ```
 
 Run all cells top to bottom. The MPC simulation takes approximately 2–3 minutes.
@@ -160,6 +160,8 @@ VIT-AP University, 2026
 - TensorFlow/Keras Documentation: [https://www.tensorflow.org/api_docs/](https://www.tensorflow.org/api_docs/)
 
 ---
+
+
 
 ## License
 
