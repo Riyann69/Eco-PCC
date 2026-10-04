@@ -2,8 +2,11 @@
 
 > Optimizing Energy Efficiency in Connected Electric Vehicles through Deep Learning (LSTM) and Model Predictive Control (MPC)
 
-**Riyan Wankhede (23BCE9287)**  
+**Riyan Wankhede (23BCE9287), Nishita (23BCE8235)**  
 Department of Computer Science and Engineering, VIT-AP University
+
+**Result:** in a 60-second variable highway simulation, both LSTM-based controllers use about **13 % less energy** than a
+reactive bang-bang baseline, and LSTM-PID also gives **4× smoother torque**.
 
 ---
 
