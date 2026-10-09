@@ -4,7 +4,7 @@
 > highway and aggressive drive cycles with a realistic drivetrain model.
 
 **Riyan Wankhede (23BCE9287), Nishita (23BCE8235)**  
-Department of Computer Science and Engineering, VIT-AP University
+Department of Computer Science and Engineering, VIT University
 
 **Result:** a perfect 2-second preview of the traffic speed lets an MPC controller track as well as a PID while using
 **2.6 % (city), 0.7 % (highway) and 4.3 % (aggressive) less energy**. A stacked LSTM forecaster recovers little of that:
